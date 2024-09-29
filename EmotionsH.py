@@ -31,7 +31,8 @@ def detect_emotion(text):
         "fearful": ["scared", "afraid", "fear", "terrified", "worried"],
         "calm": ["calm", "relaxed", "peaceful", "chill", "okay"],
         "surprised": ["surprised", "shocked", "amazed", "wow"],
-        "disgust": ["disgusted", "gross", "nasty", "horrible"]
+        "disgust": ["disgusted", "gross", "nasty", "horrible"],
+        "frustrated": ["frustrated", "annoyed", "irritated", "stressed", "fed up"]
     }
 
     # Check the text for any of the keywords
