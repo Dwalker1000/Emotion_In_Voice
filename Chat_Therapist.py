@@ -2,7 +2,7 @@ import requests
 
 # Function to interact with the OpenAI API
 def chat_with_therapist(user_input):
-    api_key = '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'  # Replace with your OpenAI API key
+    api_key = ''  # Replace with your OpenAI API key
     headers = {
         'Authorization': f'Bearer {api_key}',
         'Content-Type': 'application/json'
